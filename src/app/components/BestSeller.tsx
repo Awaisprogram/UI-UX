@@ -1,5 +1,4 @@
 import React from "react";
-import Heading from "./Heading";
 import Image, { StaticImageData } from "next/image";
 import p1 from '../images2/p1.png'
 import p2 from '../images2/p2.png'
@@ -9,7 +8,7 @@ import p5 from '../images2/p5.png'
 import p6 from '../images2/p6.png'
 import p7 from '../images2/p7.png'
 import p8 from '../images2/p2.png'
-import productImg from "../images/filter (3).png";
+
 
 type Product = {
   name: string;

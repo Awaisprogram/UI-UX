@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "./Navigation";
-import Heading from "./Heading";
 import Toggle from "./Toggle";
 import Pricings from "./Pricings";
 import Sponser from "./Sponser";

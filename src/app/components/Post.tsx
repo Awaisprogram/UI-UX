@@ -26,7 +26,6 @@ function Post() {
               description="Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
               date="21 April 2021"
               comments={10}
-              likes={1200}
             />
             <PostCard
               imageSrc={b2}
@@ -34,7 +33,6 @@ function Post() {
               description="Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
               date="21 April 2021"
               comments={10}
-              likes={1200}
             />
             <PostCard
               imageSrc={b3}
@@ -42,7 +40,6 @@ function Post() {
               description="Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
               date="21 April 2021"
               comments={10}
-              likes={1200}
             />
           </div>
         </div>

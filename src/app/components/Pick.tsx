@@ -3,7 +3,6 @@ import Heading from "./Heading";
 import Image from "next/image";
 import img1 from "../images/filter.png";
 import img2 from "../images/filter (1).png";
-import img3 from "../images/filter (4).png";
 import img5 from '../images/pick.png'
 import img4 from "../images/filter (3).png";
 

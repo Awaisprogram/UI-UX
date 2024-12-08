@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import hero from "../images/shop-hero-1-product-slide-1.jpg";
 import Button from "./Button";
 function Hero() {

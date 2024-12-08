@@ -1,6 +1,13 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
+interface type{
+  imageSrc:StaticImageData,
+  title:string,
+  description:string,
+  date :string,
+  comments:number
+}
 
 function PostCard({
   imageSrc,
@@ -8,8 +15,7 @@ function PostCard({
   description,
   date,
   comments,
-  likes,
-}: any) {
+}: type) {
   return (
     <div className="p-4 md:w-1/3">
       <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
