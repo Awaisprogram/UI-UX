@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@fontsource/montserrat'; 
+
+
+:root {
+  --black: #252B42;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.custom-img {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  object-fit: contain; 
+  border-radius: 8px; 
+  transition: transform 0.30s ease;
+}
+
+.custom-img:hover {
+  transform: scale(1.05); 
+}
+
